@@ -9,6 +9,7 @@
   background-color: rgb(0,0,0); /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
+  width:18vw;
 }
 
 /* The navigation menu links */
@@ -36,6 +37,9 @@
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+  .contentsection-page1 {
+   width: 100vw;
+  }
 }
 .body{
   margin: 0;
@@ -52,14 +56,15 @@ body{
   width: 90%;
 }
 .contentsection-page1{
+
   height: 100vh;
-  width: 100vw;
+  width: 82vw;
   background-size:cover;
   background-image:url("https://d222t7u6z842vo.cloudfront.net/wp-content/w3-webp/uploads/2018/06/3-structural-steel.jpgw3");
 }
-.contentsection-historypage{
+.contentsection-companypage{
   height: 100vh;
-  width: 100vw;
+  width: 82vw;
   padding:10px;
   background-size:cover;
   background-image: linear-gradient(rgba(255,255,255,0.7) , rgba(255,255,255,0.7)),url("https://qtxasset.com/cdn-cgi/image/w=852,h=479,f=auto,fit=crop,g=0.5x0.5/https://qtxasset.com/quartz/qcloud1/media/image/nightclub/1557188584/GettyImages898704212Tiny.jpg?VersionId=rCsrjjvR_zH_RGR62uKyouoH1I1u4iti");
@@ -99,13 +104,13 @@ body{
   padding-left: 25px;
 }
 .drop-down{
-  font-size: 11px;
+  font-size: 8px;
   text-align: right;
   text-decoration: none;
   display: block;
   font-family:Helvetica;
   color: white;
-  padding-left: 25%;
+  padding-left: 10%;
 }
 .drop-down-colour{
   color: white;
@@ -127,7 +132,7 @@ color: rgb(0,0,0);;
   font-size: 25px;
   text-align: center;
   height: 100vh;
-  width: 100vw;
+  width: 82vw;
   padding: 10px;
   background-size:cover;
   background-image: linear-gradient(rgba(255,255,255,0.7) , rgba(255,255,255,0.7)),url("https://media.istockphoto.com/photos/aerial-view-religious-procession-at-city-streets-picture-id1128862356?s=612x612")
@@ -139,6 +144,8 @@ color: rgb(0,0,0);;
   padding-bottom: 15px;
 }
 .Licensurembe{
+  height: 100vh;
+  width:82vw;
   text-align: center;
   font-family:Helvetica;
   color: rgb(0,0,0);
@@ -148,6 +155,8 @@ color: rgb(0,0,0);;
 }
 .contentsection-services {
   text-align: center;
+  width: 82vw;
+  height:100vh;
   font-family:Helvetica;
   color: rgb(0,0,0);
     font-size: 23px;
@@ -159,6 +168,8 @@ color: rgb(0,0,0);;
 }
 .contentsection-clients{
   text-align: center;
+  height: 100vh;
+  width: 82vw;
   font-family:Helvetica;
   color: rgb(0,0,0);
     font-size: 15px;
@@ -173,10 +184,19 @@ color: rgb(0,0,0);;
   font-size: 17px;
 }
 .content-sectioncontactus{
+  height: 100vh;
+  width: 82vw;
   text-align: center;
   font-family:Helvetica;
     background-size:cover;
 background-color:rgb(226,80,55,0.2);
+}
+.border-container{
+  margin-left: 150px;
+  margin-right: 150px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(226,80,55);
 }
 .contactus-section-para{
   font-size:12px;
@@ -184,19 +204,105 @@ background-color:rgb(226,80,55,0.2);
 .contactus-section{
   font-size:18px;
 }
-.border-container{
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(226,80,55);
-
-}
-.contact-info {
-  font-size: 21px;
-}
 .image-contactus{
   height: 70%;
   width: 70%;
   border-style: solid;
   border-width: 2px;
   border-color: rgb(226,80,55);
+}
+.contact-info {
+  font-size: 21px;
+}
+.background-divteam{
+  height: 100vh;
+  width:82vw;
+  text-align: center;
+  font-family:Helvetica;
+  color: rgb(0,0,0);
+    font-size: 21px;
+    background-size:cover;
+    background-image: linear-gradient(rgba(255,255,255,0.7) , rgba(255,255,255,0.7)),url("https://static01.nyt.com/images/2020/01/26/business/10daily-clearview/19clearview-superJumbo-v2.png?quality=90&auto=webp")
+}
+.profile-photo{
+font-size: 13px;
+}
+.profile-bio{
+  height: 150px;
+  width:400px;
+  border-width: 3px;
+  border-style: solid;
+  border-color:  rgb(226,80,55);
+}
+.profile-photo-image{
+  height: 150px;
+  width: 150px;
+
+}
+.team-scroll{
+  overflow-y: scroll;
+}
+.contentsection-k-12{
+  height: 100vh;
+  width:82vw;
+  text-align: center;
+  font-family:Helvetica;
+  color: rgb(0,0,0);
+    background-size:cover;
+    background-color:  rgb(226,80,55,0.2);
+}
+.image-k12{
+  height: 150px;
+  width: 280px;
+  border-width: 2px;
+  border-style: solid;
+  border-color:  rgb(226,80,55);
+}
+.k-12para{
+  font-size: 12px;
+}
+.k-12description{
+  height: 380px;
+  width: 270px;
+  border-width: 2px;
+  border-style: solid;
+  border-color:  rgb(226,80,55);
+  font-size: 10px;
+  padding: 10px;
+  padding-top: 20px;
+}
+.contentsection-others{
+  height: 100vh;
+  width:82vw;
+  text-align: center;
+  font-family:Helvetica;
+  color: rgb(0,0,0);
+    background-size:cover;
+    background-color:  rgb(226,80,55,0.2);
+}
+.bi1-Massport{
+  height: 100vh;
+  width:82vw;
+  text-align: center;
+  font-family:Helvetica;
+  color: rgb(0,0,0);
+    background-size:cover;
+    background-color:  rgb(226,80,55,0.2);
+}
+.bi-1image-element{
+  width: 10%;
+}
+.parab1l{
+  width: 100px;
+  height: 100px;
+  overflow-x:scroll;
+}
+.anchorbi:hover{
+    color:rgb(226,80,55);
+}
+.anchorbi{
+  color: grey;
+}
+.icon-left{
+  font-size: 30px;
 }

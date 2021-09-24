@@ -36,3 +36,19 @@ rightaboutUsicon.addEventListener('click',function(event){
   rightaboutUsicon.classList.add("d-none");
   downiconelement.classList.remove("d-none")
  })
+ let image1=document.getElementById("image-1");
+ let image2=document.getElementById("image-2");
+ let image3=document.getElementById("image-3");
+ image2.addEventListener('click',function(event){
+   image1src=image1.src;
+    image2src=image2.src;
+    image1.src=image2src;
+    image2.src=image1src;
+ })
+ image3.addEventListener('click',function(event){
+   image1src=image1.src;
+   image3src=image3.src;
+   image1.src=image3src;
+   image3.src=image1src;
+
+ })
