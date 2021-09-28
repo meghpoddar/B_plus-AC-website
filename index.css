@@ -36,10 +36,11 @@
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-  .contentsection-page1 {
-   width: 100vw;
-  }
+  .sidenav a {font-size: 9px;}
+  .drop-down{
+font-size:4px;
+}
+
 }
 .body{
   margin: 0;
