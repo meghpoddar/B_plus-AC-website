@@ -10,7 +10,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: black;
+  background-color: rgb(226, 80, 55, 0.2);
 }
 
 
@@ -22,12 +23,12 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #afa5a5; 
+  background: black; 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(225, 80, 55); 
+  background: rgb(226, 80, 55); 
 }
 
 /* Handle on hover */
@@ -95,13 +96,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(42, 44, 57, 0.9);
+  background: black;
 }
 #header.header-transparent {
   background: transparent;
 }
 #header.header-scrolled {
-  background: rgba(42, 44, 57, 0.9);
+  background: black;
 }
 #header .logo h1 {
   font-size: 28px;
@@ -637,7 +638,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #2a2c39;
+  background: black;
   padding: 80px 0;
 }
 .cta h3 {
@@ -1215,7 +1216,6 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
 }
 .contact .info i {
   font-size: 20px;
@@ -1223,7 +1223,6 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #ffecde;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1252,7 +1251,6 @@ section {
 }
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
 }
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
@@ -1385,7 +1383,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #14151c;
+  background: black;
   color: #fff;
   font-size: 14px;
   text-align: center;
