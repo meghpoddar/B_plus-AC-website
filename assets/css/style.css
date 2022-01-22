@@ -517,8 +517,8 @@ section {
   padding-top: 80px;
 }
 .about-img {
-  width: auto;
-  height: 75%;
+  width: 80%;
+  height: auto;
 }
 .about .content h3 {
   font-weight: 600;
