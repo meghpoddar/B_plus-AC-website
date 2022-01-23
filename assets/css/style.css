@@ -707,8 +707,7 @@ section {
 }
 .services .icon {
   position: absolute;
-  left: -20px;
-  top: calc(50% - 30px);
+  /* left: 20px; */
 }
 .services .icon i {
   font-size: 64px;
@@ -728,11 +727,9 @@ section {
 .services .title a:hover {
   color: rgb(226,80,55);
 }
-.services .description {
-  font-size: 14px;
-  margin-left: 40px;
-  line-height: 24px;
-  margin-bottom: 0;
+
+.services .licensure-list{
+  margin-left: 100px;
 }
 
 .services .logos {
@@ -809,6 +806,7 @@ section {
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: absolute;
+  top: 0px;
   left: 15px;
   bottom: 0;
   z-index: 3;
@@ -816,6 +814,9 @@ section {
   transition: all ease-in-out 0.3s;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px 15px;
+}
+.portfolio-text{
+  text-align: justify;
 }
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
@@ -831,7 +832,8 @@ section {
 }
 .portfolio .portfolio-item .portfolio-info .preview-link, .portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
-  right: 40px;
+  /* right: 10px; */
+  left: 50%;
   font-size: 24px;
   top: calc(50% - 18px);
   color: #fff;
@@ -869,6 +871,14 @@ section {
   opacity: 1;
 }
 
+.portfolio-banner .portfolio-responsive{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -895,6 +905,9 @@ section {
 .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(42, 44, 57, 0.08);
+  border-style: solid;
+  border-color: rgb(226,80,55);
+    /* padding-left: 100px; */
 }
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
