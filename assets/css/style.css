@@ -730,6 +730,7 @@ section {
 
 .services .licensure-list{
   margin-left: 100px;
+  margin-top: -50px;
 }
 
 .services .logos {
@@ -1492,4 +1493,13 @@ section {
 
 .bplusac-light{
   color:rgb(226,80,55,0.2);
+}
+
+/*--------------------------------------------------------------
+# Licensure and MBE
+--------------------------------------------------------------*/
+
+.state-img {
+  width: 10%;
+  height: auto;
 }
