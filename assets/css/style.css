@@ -364,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: #fff;
+  color: rgb(226, 80, 55);
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid rgb(226, 81, 55);
@@ -730,7 +730,7 @@ section {
 
 .services .licensure-list{
   margin-left: 100px;
-  margin-top: -50px;
+  margin-top: -60px;
 }
 
 .services .logos {
@@ -1502,4 +1502,22 @@ section {
 .state-img {
   width: 10%;
   height: auto;
+}
+
+.mytiles{
+  transition:visibility 0.2s linear,opacity 0.2s linear;
+  visibility: hidden;
+}
+.viewtiles:hover + .mytiles {
+  visibility: visible;
+  transition:visibility 0.5s linear,opacity 0.5s linear;
+}
+
+.mytiles:hover{
+  visibility: visible;
+  transition:visibility 0.3s linear,opacity 0.3s linear;
+}
+
+.mainslider{
+  margin-top: 10px;
 }
