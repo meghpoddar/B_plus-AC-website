@@ -23,17 +23,17 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: black; 
+  background: black;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(226, 80, 55); 
+  background: rgb(226, 80, 55);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(226,80,55); 
+  background: rgb(226,80,55);
 }
 /*---------- Scroll Bar End --------------*/
 a {
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -866,6 +866,9 @@ section {
   font-size: 28px;
   display: inline-block;
   transition: 0.3s;
+}
+.portfolio-grid{
+  font-family: 'Courier New', Courier, monospace;
 }
 .portfolio .portfolio-item .portfolio-links a:hover {
   color: #fd9f5b;
@@ -1547,6 +1550,6 @@ box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
 .port-img-responsive{
   max-width: 100%;
   height: auto;
-  
+
 
 }
