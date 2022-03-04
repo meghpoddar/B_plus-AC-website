@@ -1579,3 +1579,13 @@ box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
 .black_href:hover{
   color:black;
 }
+
+.fixed_size{
+  width: 170px;
+  height: 60px;
+}
+
+.fixed_port{
+  width: 180px;
+  height: 60px;
+}
