@@ -139,7 +139,7 @@
       <div class="carousel-item">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Contact <span style="color:rgb(226, 80, 55)">B+AC</span></h2>
-          <p class="animate__animated animate__fadeInUp">Reach out to us - about partnering, about projects, about employment
+          <p class="animate__animated animate__fadeInUp">Reach out to us — about partnering, about projects, about employment
             opportunities</p>
           <a href="#contact" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
