@@ -519,7 +519,8 @@ section {
   padding-top: 80px;
 }
 .about-img {
-  width: 80%;
+  padding-top: 100px;
+  width: 60%;
   height: auto;
 }
 .about .content h3 {
