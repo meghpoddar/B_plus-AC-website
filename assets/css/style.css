@@ -1,10 +1,3 @@
-/**
-* Template Name: Selecao - v4.7.0
-* Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -519,8 +512,17 @@ section {
   padding-top: 80px;
 }
 .about-img {
+  padding-top: 70px;
+  width: 60%;
+  height: auto;
+}
+.about-img-second {
   padding-top: 100px;
   width: 60%;
+  height: auto;
+}
+.about-img-small {
+  width: 100%;
   height: auto;
 }
 .about .content h3 {
